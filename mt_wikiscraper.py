@@ -1,6 +1,7 @@
 from bs4 import BeautifulSoup
 import requests
 import json
+import re
 
 class mt_wiki_reader:
     """
@@ -32,19 +33,32 @@ class mt_wiki_reader:
 
             # Iterate through the fields (wiki columns) of the card
             for data, field in zip(card_data, card_fields):
-
                 # If the field is an image, then replace it with the image's alt text
                 # The accepted_text array lists the alt text of the images that are accepted in order to not print/save unit images (e.g. "Hornbreaker_Prince.png") 
                 for img in data.find_all('img'):
                     accepted_text = ['Attack', 'Health', 'Capacity', 'Ember']
                     if img['alt'] in accepted_text:
                         img.replace_with(img.get('alt'))
-                card.update({field: data.text.strip()})
+
+                # Clean description card text
+                cardText = data.text.strip()
+                if field == "Description":
+                    numbersInDescription = re.findall("\d+", cardText)
+                    for number in numbersInDescription:
+                        cardText = cardText.replace(number, number + " ")
+
+                    cardText = cardText.replace(" .", ".")
+                    cardText = cardText.replace(".", ". ")
+                    cardText = cardText.replace("  ", " ")
+                    cardText = cardText.strip()
+
+                card.update({field: cardText})
+
             self.cards_list.append(card)
 
         # Save the cards to a json file
         with open(self.cards_file, 'w', encoding='utf-8') as cards_file:
-            cards_file.write(json.dumps(self.cards_list))
+            cards_file.write(json.dumps(self.cards_list, indent = 4))
 
 if __name__ == '__main__':
     reader = mt_wiki_reader()
