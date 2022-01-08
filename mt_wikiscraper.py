@@ -52,10 +52,14 @@ class mt_wiki_reader:
                     cardText = cardText.replace("  ", " ")
                     cardText = cardText.strip()
 
+                # Add the field to the card dictionary
                 card.update({field: cardText})
 
-            self.cards_list.append(card)
-
+            # Add the card to the list of cards
+            # The next line removes the first "card", which is a result of the table header
+            if(card != {}):
+                self.cards_list.append(card)
+                
         # Save the cards to a json file
         with open(self.cards_file, 'w', encoding='utf-8') as cards_file:
             cards_file.write(json.dumps(self.cards_list, indent = 4))
