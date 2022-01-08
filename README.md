@@ -7,7 +7,7 @@ In the r/MonsterTrain subreddit, use [[CARDNAME]] to retrieve data from the bot.
 ## How It Works
 This repo contains four components: saved_cards.json, mt_wikiscraper, mt_commenter and mt_redditor.
 
-### saved_cards.json
+##### saved_cards.json
 This is a JSON file that the bot reads from. This should be updated regularly using mt_wikiscraper
 
 ##### mt_wikiscraper.py
