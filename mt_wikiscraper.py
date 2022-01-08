@@ -36,7 +36,7 @@ class mt_wiki_reader:
                 # If the field is an image, then replace it with the image's alt text
                 # The accepted_text array lists the alt text of the images that are accepted in order to not print/save unit images (e.g. "Hornbreaker_Prince.png") 
                 for img in data.find_all('img'):
-                    accepted_text = ['Attack', 'Health', 'Capacity', 'Ember']
+                    accepted_text = ['Attack', 'Health', 'Capacity', 'Ember', 'X Cost']
                     if img['alt'] in accepted_text:
                         img.replace_with(img.get('alt'))
 
