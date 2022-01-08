@@ -38,3 +38,14 @@ class mt_commenter:
             self.comment += "**ATK:** {}\n".format(self.card_data['ATK'])
             self.comment += "**HP:** {}\n".format(self.card_data['HP'])
             self.comment += "**Description:** {}\n".format(self.card_data['Description'])
+    
+    def get_comment(self):
+        """
+        This function returns the formatted comment.
+        """
+        return self.comment
+    
+if __name__ == '__main__':
+    card_name = "Perils of Production"
+    card_commenter = mt_commenter(card_name)
+    print(card_commenter.get_comment())
