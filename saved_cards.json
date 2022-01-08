@@ -408,7 +408,7 @@
     },
     {
         "Card": "Spike of the Hellhorned",
-        "Description": "Consume. Apply 2  Rage and 2  Armor.",
+        "Description": "Consume. Apply 2 X Cost Rage and 2 X Cost Armor.",
         "Clan": "Hellhorned",
         "Type": "Spell",
         "Rarity": "Rare",
@@ -441,7 +441,7 @@
     },
     {
         "Card": "Vent",
-        "Description": "Deal 2 damage to enemy units.",
+        "Description": "Deal 2 X Cost damage to enemy units.",
         "Clan": "Hellhorned",
         "Type": "Spell",
         "Rarity": "Common",
@@ -628,7 +628,7 @@
     },
     {
         "Card": "Awoken's Rail Spike",
-        "Description": "Consume. Draw and apply -1 Ember to those cards.",
+        "Description": "Consume. Draw X Cost and apply -1 Ember to those cards.",
         "Clan": "Awoken",
         "Type": "Spell",
         "Rarity": "Rare",
@@ -1299,7 +1299,7 @@
     },
     {
         "Card": "Spike of the Stygian",
-        "Description": "Consume. Apply 1 Sap and 5 Frostbite.",
+        "Description": "Consume. Apply 1 X Cost Sap and 5 X Cost Frostbite.",
         "Clan": "Stygian Guard",
         "Type": "Spell",
         "Rarity": "Rare",
@@ -1651,7 +1651,7 @@
     },
     {
         "Card": "Forever Consumed",
-        "Description": "Deal 30 damage to the front enemy unit.",
+        "Description": "Deal 30 X Cost damage to the front enemy unit.",
         "Clan": "Umbra",
         "Type": "Spell",
         "Rarity": "Rare",
@@ -1706,7 +1706,7 @@
     },
     {
         "Card": "Kindle",
-        "Description": "Consume. Gain 2 Ember.",
+        "Description": "Consume. Gain 2 X CostEmber.",
         "Clan": "Umbra",
         "Type": "Spell",
         "Rarity": "Rare",
@@ -1728,7 +1728,7 @@
     },
     {
         "Card": "Mine Collapse",
-        "Description": "Deal 3 damage to an enemy unit. Slay: Gain 2 Ember.",
+        "Description": "Deal 3 X Cost damage to an enemy unit. Slay: Gain 2 Ember.",
         "Clan": "Umbra",
         "Type": "Spell",
         "Rarity": "Common",
@@ -1772,7 +1772,7 @@
     },
     {
         "Card": "Prism Retrieval",
-        "Description": "Consume. Draw a unit and apply +5 Attack and -Ember.",
+        "Description": "Consume. Draw a unit and apply +5 X CostAttack and -X CostEmber.",
         "Clan": "Umbra",
         "Type": "Spell",
         "Rarity": "Uncommon",
@@ -1783,7 +1783,7 @@
     },
     {
         "Card": "Prismal Dust",
-        "Description": "Consume. Apply 1 Damage Shield.",
+        "Description": "Consume. Apply 1 X Cost Damage Shield.",
         "Clan": "Umbra",
         "Type": "Spell",
         "Rarity": "Common",
@@ -1827,7 +1827,7 @@
     },
     {
         "Card": "Shroud Spike",
-        "Description": "Consume. Kill a Morsel unit. Trigger Eaten and Gorge abilities as if it had been eaten 2 times.",
+        "Description": "Consume. Kill a Morsel unit. Trigger Eaten and Gorge abilities as if it had been eaten 2 X Cost times.",
         "Clan": "Umbra",
         "Type": "Spell",
         "Rarity": "Rare",
@@ -2278,7 +2278,7 @@
     },
     {
         "Card": "Waxen Spike",
-        "Description": "Consume. Apply +4 Attack and Burnout 4  to friendly units.",
+        "Description": "Consume. Apply +4 X CostAttack and Burnout 4  to friendly units.",
         "Clan": "Melting Remnant",
         "Type": "Spell",
         "Rarity": "Rare",
@@ -2784,7 +2784,7 @@
     },
     {
         "Card": "Wurmkin Spike",
-        "Description": "Consume. Apply 4 Reap to enemy units.",
+        "Description": "Consume. Apply 4 X Cost Reap to enemy units.",
         "Clan": "Wurmkin",
         "Type": "Spell",
         "Rarity": "Rare",
@@ -2839,7 +2839,7 @@
     },
     {
         "Card": "Automatic Railspikes",
-        "Description": "Deal 10 damage. Slay: Add a permanent copy of this card to your discard pile.",
+        "Description": "Deal 10 X Cost damage. Slay: Add a permanent copy of this card to your discard pile.",
         "Clan": "Clanless",
         "Type": "Spell",
         "Rarity": "Uncommon",
@@ -2861,7 +2861,7 @@
     },
     {
         "Card": "Bone Rattler",
-        "Description": "Consume. Apply +5 Attack to your Pyre.",
+        "Description": "Consume. Apply +5 X CostAttack to your Pyre.",
         "Clan": "Clanless",
         "Type": "Spell",
         "Rarity": "Rare",
@@ -2872,7 +2872,7 @@
     },
     {
         "Card": "Boneshine",
-        "Description": "Purge. Restore 5 Pyre health.",
+        "Description": "Purge. Restore 5 X Cost Pyre health.",
         "Clan": "Clanless",
         "Type": "Spell",
         "Rarity": "Rare",
@@ -2905,7 +2905,7 @@
     },
     {
         "Card": "Gift of Gratitude",
-        "Description": "Purge. Gain 40.",
+        "Description": "Purge. Gain 40 X Cost.",
         "Clan": "Clanless",
         "Type": "Spell",
         "Rarity": "Rare",
@@ -2927,7 +2927,7 @@
     },
     {
         "Card": "Most Blessed Sword",
-        "Description": "Purge. Piercing. Deal 30 damage to enemy units.",
+        "Description": "Purge. Piercing. Deal 30 X Cost damage to enemy units.",
         "Clan": "Clanless",
         "Type": "Spell",
         "Rarity": "Rare",
@@ -2993,7 +2993,7 @@
     },
     {
         "Card": "Thy Holiest Shield",
-        "Description": "Purge. Apply 2 Damage Shield.",
+        "Description": "Purge. Apply 2 X Cost Damage Shield.",
         "Clan": "Clanless",
         "Type": "Spell",
         "Rarity": "Rare",

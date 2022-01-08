@@ -18,7 +18,7 @@ class mt_commenter:
         with open(self.cards_file, 'r') as cards_file:
             cards = json.load(cards_file)
             for card in cards:
-                if card['Card'] == self.card_name:
+                if card['Card'].lower() == self.card_name.lower():
                     return card
             return None
 
@@ -27,17 +27,20 @@ class mt_commenter:
         This function formats the comment to be posted to Reddit.
         """
         if self.card_data is None:
-            self.comment = "Card not found."
+            self.comment = "Card not found.\n\n"
         else:
             self.comment = "**{}**\n\n".format(self.card_data['Card'])
-            self.comment += "**Clan:** {}\n".format(self.card_data['Clan'])
-            self.comment += "**Type:** {}\n".format(self.card_data['Type'])
-            self.comment += "**Rarity:** {}\n".format(self.card_data['Rarity'])
-            self.comment += "**Cost:** {}\n".format(self.card_data['Cost'])
-            self.comment += "**CP:** {}\n".format(self.card_data['CP'])
-            self.comment += "**ATK:** {}\n".format(self.card_data['ATK'])
-            self.comment += "**HP:** {}\n".format(self.card_data['HP'])
-            self.comment += "**Description:** {}\n".format(self.card_data['Description'])
+            self.comment += "**Clan:** {}  \n".format(self.card_data['Clan'])
+            self.comment += "**Type:** {}  \n".format(self.card_data['Type'])
+            self.comment += "**Rarity:** {}  \n".format(self.card_data['Rarity'])
+            self.comment += "**Cost:** {}  \n".format(self.card_data['Cost'])
+
+            if self.card_data['Type'] != "Spell":
+                self.comment += "**CP:** {} || **ATK:** {} || **HP:** {}  \n".format(self.card_data['CP'], self.card_data['ATK'], self.card_data['HP'])
+            self.comment += "**Description:** {}\n\n".format(self.card_data['Description'])
+        self.comment += "------------------------------------------------------  \n"
+        self.comment += "^^Questions? ^^Visit ^^/r/TrainStewardBot ^^- ^^Call ^^cards ^^with ^^[[CARDNAME]]"
+
     
     def get_comment(self):
         """
@@ -46,6 +49,6 @@ class mt_commenter:
         return self.comment
     
 if __name__ == '__main__':
-    card_name = "Perils of Production"
+    card_name = "Most Blessed Sword"
     card_commenter = mt_commenter(card_name)
     print(card_commenter.get_comment())

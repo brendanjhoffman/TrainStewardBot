@@ -1,6 +1,6 @@
 import praw
 import time
-import mt_commenter
+from mt_commenter import mt_commenter
 
 class mt_redditor:
     """
@@ -43,11 +43,10 @@ class mt_redditor:
         """
         This function returns an array of new comments
         """
-        comments = self.reddit.subreddit(self.subreddit).comments(limit=None)
+        comments = self.reddit.subreddit(self.subreddit).comments(limit=250)
         new_comments = []
         for comment in comments:
             if comment.author != self.reddit.user.me() and comment.id not in self.done_comments:
-                self.done_comments.append(comment.id)
                 new_comments.append(comment)
         return new_comments
 
@@ -66,14 +65,22 @@ class mt_redditor:
         while True:
             new_comments = self.get_new_comments()
             for comment in new_comments:
-                card_name = comment.body.split('[[')[1].split(']]')[0]
-                self.reply_to_comment(comment, card_name)
+                print("Attempting to reply to comment: {}".format(comment.body))
+                try:
+                    card_name = comment.body.replace('\\', '').split('[[')[1].split(']]')[0]
+                    self.reply_to_comment(comment, card_name)
+                    self.done_comments.append(comment.id)
+                except IndexError:
+                    pass
+                except Exception as e:
+                    print(e)
                 time.sleep(10)
             
             # Write the done comments to a file
             with open('done_comments.txt', 'w') as done_comments_file:
                 for comment in self.done_comments:
                     done_comments_file.write(comment + '\n')
+            
             time.sleep(60)
 
 if __name__ == '__main__':
@@ -98,5 +105,8 @@ if __name__ == '__main__':
             print("Error initializing Reddit API")
             exit()
         mt_redditor.run()
+    except Exception as e:
+        print(e)
+        exit()
     except KeyboardInterrupt:
         print("\nExiting...")
