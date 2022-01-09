@@ -12,7 +12,7 @@ class mt_redditor:
         self.password = password
         self.client_id = client_id
         self.client_secret = client_secret
-        self.subreddit = "TrainStewardBot"
+        self.subreddit = "MonsterTrain"
         self.reddit = self.init_reddit()
         self.done_comments = []
 
