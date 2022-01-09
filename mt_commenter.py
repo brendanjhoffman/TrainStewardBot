@@ -26,10 +26,14 @@ class mt_commenter:
         """
         This function formats the comment to be posted to Reddit.
         """
+
+        # Append the card name to the base url to get it's wiki entry
+        baseurl = "https://monster-train.fandom.com/wiki/"
+
         if self.card_data is None:
             self.comment = "Card not found.\n\n"
         else:
-            self.comment = "**{}**\n\n".format(self.card_data['Card'])
+            self.comment = "**[{}]({})**\n\n".format(self.card_data['Card'], baseurl + self.card_data['Card'].replace(" ", "_"))
             self.comment += "**Clan:** {}  \n".format(self.card_data['Clan'])
             self.comment += "**Type:** {}  \n".format(self.card_data['Type'])
             self.comment += "**Rarity:** {}  \n".format(self.card_data['Rarity'])

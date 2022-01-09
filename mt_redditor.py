@@ -70,10 +70,12 @@ class mt_redditor:
                     card_name = comment.body.replace('\\', '').split('[[')[1].split(']]')[0]
                     self.reply_to_comment(comment, card_name)
                     self.done_comments.append(comment.id)
+                    print("Success")
                 except IndexError:
+                    print("No card name found")
                     pass
                 except Exception as e:
-                    print(e)
+                    print("Failed - Reason: {}".format(e))
                 time.sleep(10)
             
             # Write the done comments to a file
