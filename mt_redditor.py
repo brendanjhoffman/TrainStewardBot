@@ -91,7 +91,6 @@ if __name__ == '__main__':
     Read the config file and run the bot
     """
     try:
-        print(os.environ)
         if(os.environ['username']):
             username = os.environ['username']
             password = os.environ['password']
