@@ -1,5 +1,6 @@
 import praw
 import time
+import os
 from mt_commenter import mt_commenter
 
 class mt_redditor:
@@ -90,12 +91,18 @@ if __name__ == '__main__':
     Read the config file and run the bot
     """
     try:
-        with open('.env', 'r') as config_file:
-            config = config_file.read().split('\n')
-            username = config[0].split('=')[1]
-            password = config[1].split('=')[1]
-            client_id = config[2].split('=')[1]
-            client_secret = config[3].split('=')[1]
+        if(os.environ['username']):
+            username = os.environ['username']
+            password = os.environ['password']
+            client_id = os.environ['client_id']
+            client_secret = os.environ['client_secret']
+        else:
+            with open('.env', 'r') as config_file:
+                config = config_file.read().split('\n')
+                username = config[0].split('=')[1]
+                password = config[1].split('=')[1]
+                client_id = config[2].split('=')[1]
+                client_secret = config[3].split('=')[1]
     except FileNotFoundError:
         print("Config file not found. Please create a .env file with the following format:")
         print("username=<username>\npassword=<password>\nclient_id=<client_id>\nclient_secret=<client_secret>")
