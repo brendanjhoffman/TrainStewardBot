@@ -15,7 +15,7 @@ class mt_redditor:
         self.client_secret = client_secret
         self.subreddit = "MonsterTrain"
         self.reddit = self.init_reddit()
-        self.done_comments = []
+        self.done_comments = ["hrzing9", "hrtvqej", "rvzt0c", "ryqom6"]
 
     def init_reddit(self):
         """
@@ -47,7 +47,7 @@ class mt_redditor:
         comments = self.reddit.subreddit(self.subreddit).comments(limit=250)
         new_comments = []
         for comment in comments:
-            if comment.author != self.reddit.user.me() and comment.id not in self.done_comments:
+            if comment.author != self.username and comment.id not in self.done_comments:
                 new_comments.append(comment)
         return new_comments
 
@@ -55,18 +55,10 @@ class mt_redditor:
         """
         This function runs the bot and checks for new comments
         """
-        
-        # Load the list of comments already replied to
-        try:
-            with open('done_comments.txt', 'r') as done_comments_file:
-                self.done_comments = done_comments_file.read().split('\n')
-        except FileNotFoundError:
-            pass
 
         while True:
             new_comments = self.get_new_comments()
             for comment in new_comments:
-                print("Attempting to reply to comment: {}".format(comment.body))
                 try:
                     card_name = comment.body.replace('\\', '').split('[[')[1].split(']]')[0]
                     self.reply_to_comment(comment, card_name)
@@ -78,12 +70,6 @@ class mt_redditor:
                 except Exception as e:
                     print("Failed - Reason: {}".format(e))
                 time.sleep(10)
-            
-            # Write the done comments to a file
-            with open('done_comments.txt', 'w') as done_comments_file:
-                for comment in self.done_comments:
-                    done_comments_file.write(comment + '\n')
-            
             time.sleep(60)
 
 if __name__ == '__main__':
