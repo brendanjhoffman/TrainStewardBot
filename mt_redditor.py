@@ -77,13 +77,12 @@ class mt_redditor:
                     regex = '\[\[(.*?)\]\]'
                     body = comment.body.replace('\\', '')
                     items = re.findall(regex, body)
-                    self.reply_to_comment(comment, items)
-                    self.done_comments.append(comment.id)
-                    print("Success: Added items {}".format(items))
-                except IndexError:
-                    self.done_comments.append(comment.id)
-                    print("No item name found")
-                    pass
+                    if len(items) > 0:
+                        self.reply_to_comment(comment, items)
+                        self.done_comments.append(comment.id)
+                        print("Success: Added items {}".format(items))
+                    else:
+                        print("No item name found")
                 except Exception as e:
                     print("!!!Failed - Reason: {}!!!".format(e))
                 time.sleep(10)
