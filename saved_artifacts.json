@@ -1,0 +1,905 @@
+[
+    {
+        "Artifact": "Advanced Prototype",
+        "Description": "Steward units cards get +5 Attack, +5 Health, Damage Shield 2 and Multistrike 1.",
+        "Clan/Type": "Clanless",
+        "Source": "",
+        "DLC": "-"
+    },
+    {
+        "Artifact": "Boon of the Blacksmith",
+        "Description": "Your Pyre gets +15 Attack.",
+        "Clan/Type": "Clanless",
+        "Source": "",
+        "DLC": "-"
+    },
+    {
+        "Artifact": "Capricious Reflection",
+        "Description": "Cards in reward packs and unit banners come with a random upgrade.",
+        "Clan/Type": "Clanless",
+        "Source": "",
+        "DLC": "The Last Divinity"
+    },
+    {
+        "Artifact": "Cheater's Hand",
+        "Description": "Draw +1  each turn, then return 1  card to the top of your draw pile.",
+        "Clan/Type": "Clanless",
+        "Source": "",
+        "DLC": "The Last Divinity"
+    },
+    {
+        "Artifact": "Cleansing Water",
+        "Description": "50 % chance to remove all Buff effects on an enemy unit when it enters your train.",
+        "Clan/Type": "Clanless",
+        "Source": "",
+        "DLC": "-"
+    },
+    {
+        "Artifact": "Concussive Coals",
+        "Description": "50 % chance to apply Dazed when an enemy unit enters your train.",
+        "Clan/Type": "Clanless",
+        "Source": "",
+        "DLC": "-"
+    },
+    {
+        "Artifact": "Conscription Notice",
+        "Description": "When you first summon your Champion, gain a random unit card with +1 0 Attack, +1 0 Health, -1 Ember, and -1 Capacity.",
+        "Clan/Type": "Clanless",
+        "Source": "",
+        "DLC": "The Last Divinity"
+    },
+    {
+        "Artifact": "Faulty Loader",
+        "Description": "Apply Dazed 3 and Melee Weakness 1 to enemy units on the bottom floor in the first wave of combat.",
+        "Clan/Type": "Clanless",
+        "Source": "",
+        "DLC": "The Last Divinity"
+    },
+    {
+        "Artifact": "Forever Flame",
+        "Description": "Units cost -2 Ember.",
+        "Clan/Type": "Clanless",
+        "Source": "",
+        "DLC": "-"
+    },
+    {
+        "Artifact": "Golden Vault",
+        "Description": "As long as you have at least 25 , lose 25  when you take Pyre damage in combat instead of taking damage.",
+        "Clan/Type": "Clanless",
+        "Source": "",
+        "DLC": "The Last Divinity"
+    },
+    {
+        "Artifact": "Guild Marker",
+        "Description": "Merchant costs are reduced by 25 %.",
+        "Clan/Type": "Clanless",
+        "Source": "",
+        "DLC": "-"
+    },
+    {
+        "Artifact": "Hammered Chestplates",
+        "Description": "Friendly units get +5 Health.",
+        "Clan/Type": "Clanless",
+        "Source": "",
+        "DLC": "-"
+    },
+    {
+        "Artifact": "Hell's Banners",
+        "Description": "When you summon the second unit during a turn, gain 3 Ember.",
+        "Clan/Type": "Clanless",
+        "Source": "",
+        "DLC": "-"
+    },
+    {
+        "Artifact": "Improved Firebox",
+        "Description": "Gain 7 Ember on the first turn of battle.",
+        "Clan/Type": "Clanless",
+        "Source": "",
+        "DLC": "-"
+    },
+    {
+        "Artifact": "Infused Mallet",
+        "Description": "25 % chance to deal 5 damage when an enemy unit enters your train.",
+        "Clan/Type": "Clanless",
+        "Source": "",
+        "DLC": "-"
+    },
+    {
+        "Artifact": "Iron Dropcage",
+        "Description": "Whenever you play a spell that would Ascend or Descend an enemy unit, also apply Dazed 2.",
+        "Clan/Type": "Clanless",
+        "Source": "",
+        "DLC": "-"
+    },
+    {
+        "Artifact": "Jackstrips",
+        "Description": "Deal 2 damage whenever an enemy unit moves between floors.",
+        "Clan/Type": "Clanless",
+        "Source": "",
+        "DLC": "-"
+    },
+    {
+        "Artifact": "Light's Gift",
+        "Description": "Apply Dazed to enemy units when they enter the floor below the Pyre Room.",
+        "Clan/Type": "Clanless",
+        "Source": "",
+        "DLC": "-"
+    },
+    {
+        "Artifact": "Lightstone Casing",
+        "Description": "Spells gain an extra upgrade slot.",
+        "Clan/Type": "Clanless",
+        "Source": "",
+        "DLC": "-"
+    },
+    {
+        "Artifact": "Lost Luggage",
+        "Description": "At the start of battle, draw until you have 10 cards.",
+        "Clan/Type": "Clanless",
+        "Source": "",
+        "DLC": "The Last Divinity"
+    },
+    {
+        "Artifact": "Mark of a Champion",
+        "Description": "When played, your Champion gains +50 % attack.",
+        "Clan/Type": "Clanless",
+        "Source": "",
+        "DLC": "The Last Divinity"
+    },
+    {
+        "Artifact": "Mark of an Exile",
+        "Description": "When played, your Champion gains +50 % max health.",
+        "Clan/Type": "Clanless",
+        "Source": "",
+        "DLC": "The Last Divinity"
+    },
+    {
+        "Artifact": "Precious Plating",
+        "Description": "Your Pyre gets +40.",
+        "Clan/Type": "Clanless",
+        "Source": "",
+        "DLC": "-"
+    },
+    {
+        "Artifact": "Pyrestone Housing",
+        "Description": "Units gain an extra upgrade slot.",
+        "Clan/Type": "Clanless",
+        "Source": "",
+        "DLC": "-"
+    },
+    {
+        "Artifact": "Pyrewall",
+        "Description": "Your Pyre starts each battle with Armor 15.",
+        "Clan/Type": "Clanless",
+        "Source": "",
+        "DLC": "-"
+    },
+    {
+        "Artifact": "Rationing Scales",
+        "Description": "Before each battle, set Pyre health to 50. If this reduces Pyre health, gain 3 for each health lost.",
+        "Clan/Type": "Clanless",
+        "Source": "",
+        "DLC": "The Last Divinity"
+    },
+    {
+        "Artifact": "Refracting Lenses",
+        "Description": "When a card with Consume is played, restore 5 Pyre health.",
+        "Clan/Type": "Clanless",
+        "Source": "",
+        "DLC": "-"
+    },
+    {
+        "Artifact": "Sinner's Salve",
+        "Description": "Blights and Scourges cost 0 Ember.",
+        "Clan/Type": "Clanless",
+        "Source": "",
+        "DLC": "The Last Divinity"
+    },
+    {
+        "Artifact": "Sketches of Salvation",
+        "Description": "At the start of battle, summon 4 random units from your deck onto the middle floor.",
+        "Clan/Type": "Clanless",
+        "Source": "",
+        "DLC": "-"
+    },
+    {
+        "Artifact": "Split Anvil",
+        "Description": "When you play a spell, spells in hand that cost less are reduced to 0 Ember for the turn.",
+        "Clan/Type": "Clanless",
+        "Source": "",
+        "DLC": "-"
+    },
+    {
+        "Artifact": "Tempered Talisman",
+        "Description": "+3 Magic Power.",
+        "Clan/Type": "Clanless",
+        "Source": "",
+        "DLC": "-"
+    },
+    {
+        "Artifact": "The First Hellpact",
+        "Description": "X Cost cards get +3 to their X value when played.",
+        "Clan/Type": "Clanless",
+        "Source": "",
+        "DLC": "-"
+    },
+    {
+        "Artifact": "Traitor's Quill",
+        "Description": "When a card with Consume is played, deal 30 damage to the front enemy unit.",
+        "Clan/Type": "Clanless",
+        "Source": "",
+        "DLC": "-"
+    },
+    {
+        "Artifact": "Vapor Funnel",
+        "Description": "Apply Dazed to enemy units when they enter the Pyre Room. Your Pyre gets -5 Attack.",
+        "Clan/Type": "Clanless",
+        "Source": "",
+        "DLC": "-"
+    },
+    {
+        "Artifact": "Volatile Gauge",
+        "Description": "When you draw any non-champion card, its cost is randomized between 1 Ember and 3 Ember. Draw +3  each turn.",
+        "Clan/Type": "Clanless",
+        "Source": "",
+        "DLC": "-"
+    },
+    {
+        "Artifact": "Wing Clippings",
+        "Description": "Spells with Consume have a 50 % chance to be discarded instead.",
+        "Clan/Type": "Clanless",
+        "Source": "",
+        "DLC": "-"
+    },
+    {
+        "Artifact": "Winged Indulgence",
+        "Description": "Enemies get -1 Attack.",
+        "Clan/Type": "Clanless",
+        "Source": "",
+        "DLC": "-"
+    },
+    {
+        "Artifact": "Winged Steel",
+        "Description": "When you play your third card of the turn, draw 1.",
+        "Clan/Type": "Clanless",
+        "Source": "",
+        "DLC": "-"
+    },
+    {
+        "Artifact": "Worn Grindstone",
+        "Description": "Friendly units get +5 Attack.",
+        "Clan/Type": "Clanless",
+        "Source": "",
+        "DLC": "The Last Divinity"
+    },
+    {
+        "Artifact": "Ashes of the Fallen",
+        "Description": "Summon abilities trigger an additional time.",
+        "Clan/Type": "Hellhorned",
+        "Source": "",
+        "DLC": "-"
+    },
+    {
+        "Artifact": "Collection of Tails",
+        "Description": "Rage does not decay.",
+        "Clan/Type": "Hellhorned",
+        "Source": "",
+        "DLC": "-"
+    },
+    {
+        "Artifact": "Consumed Crown",
+        "Description": "Friendly units gain +2 Attack on Slay.",
+        "Clan/Type": "Hellhorned",
+        "Source": "",
+        "DLC": "-"
+    },
+    {
+        "Artifact": "Grrrg's Goad",
+        "Description": "Demon units get Multistrike 1.",
+        "Clan/Type": "Hellhorned",
+        "Source": "",
+        "DLC": "-"
+    },
+    {
+        "Artifact": "Imp-cicle",
+        "Description": "At the start of your turn, add a random Imp unit to your hand.",
+        "Clan/Type": "Hellhorned",
+        "Source": "",
+        "DLC": "-"
+    },
+    {
+        "Artifact": "Queen's Tail",
+        "Description": "When you summon your first Imp each turn, gain +1 Ember and draw 1 .",
+        "Clan/Type": "Hellhorned",
+        "Source": "",
+        "DLC": "-"
+    },
+    {
+        "Artifact": "Railhammer",
+        "Description": "Grant +4 stacks of Armor each time it is applied to friendly units.",
+        "Clan/Type": "Hellhorned",
+        "Source": "",
+        "DLC": "-"
+    },
+    {
+        "Artifact": "Resonant Shard",
+        "Description": "Rage adds an additional +1 Attack per stack.",
+        "Clan/Type": "Hellhorned",
+        "Source": "",
+        "DLC": "-"
+    },
+    {
+        "Artifact": "Scorched Steel",
+        "Description": "Friendly units enter with Armor 5.",
+        "Clan/Type": "Hellhorned",
+        "Source": "",
+        "DLC": "-"
+    },
+    {
+        "Artifact": "Scorching Restraints",
+        "Description": "Friendly units enter with Rage 3.",
+        "Clan/Type": "Hellhorned",
+        "Source": "",
+        "DLC": "-"
+    },
+    {
+        "Artifact": "The Unbroken Horn",
+        "Description": "Conserve Ember between turns.",
+        "Clan/Type": "Hellhorned",
+        "Source": "",
+        "DLC": "-"
+    },
+    {
+        "Artifact": "Channelheart",
+        "Description": "Sting spells get +20 Magic Power.",
+        "Clan/Type": "Awoken",
+        "Source": "",
+        "DLC": "-"
+    },
+    {
+        "Artifact": "Cursed Vines",
+        "Description": "At start of turn, add a Vine Grasp spell with Purge to your hand.",
+        "Clan/Type": "Awoken",
+        "Source": "",
+        "DLC": "-"
+    },
+    {
+        "Artifact": "Emblem of the Exiles",
+        "Description": "At the start of turn, the front friendly unit on each floor gains +5 Health.",
+        "Clan/Type": "Awoken",
+        "Source": "",
+        "DLC": "-"
+    },
+    {
+        "Artifact": "Gnarled Root",
+        "Description": "Friendly units get +1 Attack per stack of Spikes.",
+        "Clan/Type": "Awoken",
+        "Source": "",
+        "DLC": "-"
+    },
+    {
+        "Artifact": "Petrified Crucible",
+        "Description": "Spikes deal +1 damage per stack.",
+        "Clan/Type": "Awoken",
+        "Source": "",
+        "DLC": "-"
+    },
+    {
+        "Artifact": "Priory's Cloak",
+        "Description": "When a friendly unit is healed, deal damage to the front enemy unit equal to the amount healed.",
+        "Clan/Type": "Awoken",
+        "Source": "",
+        "DLC": "-"
+    },
+    {
+        "Artifact": "Rootsplit Mask",
+        "Description": "Apply Rooted to enemy units when they enter the floor below the Pyre Room.",
+        "Clan/Type": "Awoken",
+        "Source": "",
+        "DLC": "-"
+    },
+    {
+        "Artifact": "Sap Tap",
+        "Description": "The first time each turn a friendly unit is healed, draw 1.",
+        "Clan/Type": "Awoken",
+        "Source": "",
+        "DLC": "-"
+    },
+    {
+        "Artifact": "The Bloating Fungus",
+        "Description": "Regen restores +1 health per stack.",
+        "Clan/Type": "Awoken",
+        "Source": "",
+        "DLC": "-"
+    },
+    {
+        "Artifact": "Thorn Casing",
+        "Description": "Sting spells get +10 Magic Power and Piercing.",
+        "Clan/Type": "Awoken",
+        "Source": "",
+        "DLC": "-"
+    },
+    {
+        "Artifact": "Thornfruit",
+        "Description": "At the start of your turn, add a Sting spell to your hand.",
+        "Clan/Type": "Awoken",
+        "Source": "",
+        "DLC": "-"
+    },
+    {
+        "Artifact": "A Forgotten Name",
+        "Description": "When you play your third spell of the turn, all cards gain +1 Magic Power for the rest of this battle.",
+        "Clan/Type": "Stygian Guard",
+        "Source": "",
+        "DLC": "-"
+    },
+    {
+        "Artifact": "Cuttlebeard",
+        "Description": "Grant +2 stacks of Frostbite each time it is applied. Frostbite does not decay.",
+        "Clan/Type": "Stygian Guard",
+        "Source": "",
+        "DLC": "-"
+    },
+    {
+        "Artifact": "Founding Seal",
+        "Description": "Incant abilities trigger an additional time.",
+        "Clan/Type": "Stygian Guard",
+        "Source": "",
+        "DLC": "-"
+    },
+    {
+        "Artifact": "Icicle Fracture",
+        "Description": "At the end of the turn, apply Frozen to a random card in your hand.",
+        "Clan/Type": "Stygian Guard",
+        "Source": "",
+        "DLC": "-"
+    },
+    {
+        "Artifact": "Kinstone Totem",
+        "Description": "When a card is discarded before the end of your turn, gain 1 Ember.",
+        "Clan/Type": "Stygian Guard",
+        "Source": "",
+        "DLC": "-"
+    },
+    {
+        "Artifact": "Rules of Containment",
+        "Description": "Enemy units enter with Frostbite 2.",
+        "Clan/Type": "Stygian Guard",
+        "Source": "",
+        "DLC": "-"
+    },
+    {
+        "Artifact": "Sigiled Seaweed",
+        "Description": "50 % chance to apply Silence when an enemy unit enters your train.",
+        "Clan/Type": "Stygian Guard",
+        "Source": "",
+        "DLC": "-"
+    },
+    {
+        "Artifact": "Tethys' Scales",
+        "Description": "50 % chance to apply Spell Weakness 1 when an enemy unit enters your train.",
+        "Clan/Type": "Stygian Guard",
+        "Source": "",
+        "DLC": "-"
+    },
+    {
+        "Artifact": "Titan's Claws",
+        "Description": "At the end of the turn, Frozen cards are reduced to 0 Ember until played or discarded.",
+        "Clan/Type": "Stygian Guard",
+        "Source": "",
+        "DLC": "-"
+    },
+    {
+        "Artifact": "Token of a Traitor",
+        "Description": "Playing a spell deals 2 damage to a random enemy unit on that floor.",
+        "Clan/Type": "Stygian Guard",
+        "Source": "",
+        "DLC": "-"
+    },
+    {
+        "Artifact": "Totem Fragment",
+        "Description": "Apply Spell Weakness 2 to enemy units when they enter the floor below the Pyre Room.",
+        "Clan/Type": "Stygian Guard",
+        "Source": "",
+        "DLC": "-"
+    },
+    {
+        "Artifact": "Abandoned Antumbra",
+        "Description": "At start of turn, add a common or uncommon Morsel unit to hand.",
+        "Clan/Type": "Umbra",
+        "Source": "",
+        "DLC": "-"
+    },
+    {
+        "Artifact": "Chain of Gems",
+        "Description": "Apply Damage Shield 2 to the first friendly unit summoned each turn.",
+        "Clan/Type": "Umbra",
+        "Source": "",
+        "DLC": "-"
+    },
+    {
+        "Artifact": "Commemorative Spike",
+        "Description": "At the start of battle, summon a Morsel Miner on each floor.",
+        "Clan/Type": "Umbra",
+        "Source": "",
+        "DLC": "-"
+    },
+    {
+        "Artifact": "Fossilized Fangs",
+        "Description": "Gorge abilities trigger an additional time.",
+        "Clan/Type": "Umbra",
+        "Source": "",
+        "DLC": "-"
+    },
+    {
+        "Artifact": "Mask of Penumbra",
+        "Description": "When you summon your first Morsel unit each turn, draw 1.",
+        "Clan/Type": "Umbra",
+        "Source": "",
+        "DLC": "-"
+    },
+    {
+        "Artifact": "Mine Jacks",
+        "Description": "+2 Capacity on the middle floor.",
+        "Clan/Type": "Umbra",
+        "Source": "",
+        "DLC": "-"
+    },
+    {
+        "Artifact": "Refined Void",
+        "Description": "Friendly units enter with Lifesteal 2.",
+        "Clan/Type": "Umbra",
+        "Source": "",
+        "DLC": "-"
+    },
+    {
+        "Artifact": "Shadelamp",
+        "Description": "The first time each turn an enemy unit dies, add 2 Morsel units to hand.",
+        "Clan/Type": "Umbra",
+        "Source": "",
+        "DLC": "-"
+    },
+    {
+        "Artifact": "Shadowbox",
+        "Description": "When you play your 20 th Morsel unit of the battle, deal 150 damage to all enemies on all floors.",
+        "Clan/Type": "Umbra",
+        "Source": "",
+        "DLC": "-"
+    },
+    {
+        "Artifact": "Teeth of Gold",
+        "Description": "Deal 3 damage to the rear enemy unit when a Morsel unit is Eaten.",
+        "Clan/Type": "Umbra",
+        "Source": "",
+        "DLC": "-"
+    },
+    {
+        "Artifact": "Winged Technology",
+        "Description": "Morsel units get Damage Shield 1.",
+        "Clan/Type": "Umbra",
+        "Source": "",
+        "DLC": "-"
+    },
+    {
+        "Artifact": "Combustible Wax",
+        "Description": "Grant +3 stacks of Burnout each time it is applied.",
+        "Clan/Type": "Melting Remnant",
+        "Source": "",
+        "DLC": "-"
+    },
+    {
+        "Artifact": "Encased Ember",
+        "Description": "Gain 5 Ember when a Tomb unit dies.",
+        "Clan/Type": "Melting Remnant",
+        "Source": "",
+        "DLC": "-"
+    },
+    {
+        "Artifact": "Exploding Candle",
+        "Description": "Deal 5 damage to enemy units when a Burnout unit dies.",
+        "Clan/Type": "Melting Remnant",
+        "Source": "",
+        "DLC": "-"
+    },
+    {
+        "Artifact": "Fade's First Blade",
+        "Description": "Friendly units gain Rage 3 whenener they lose a stack of Burnout.",
+        "Clan/Type": "Melting Remnant",
+        "Source": "",
+        "DLC": "-"
+    },
+    {
+        "Artifact": "Flicker's Liquor",
+        "Description": "When you play a unit, a random card in hand is reduced to 0 Ember until played or discarded.",
+        "Clan/Type": "Melting Remnant",
+        "Source": "",
+        "DLC": "-"
+    },
+    {
+        "Artifact": "Melting Spout",
+        "Description": "Tomb units get +30 Health and Burnout 1.",
+        "Clan/Type": "Melting Remnant",
+        "Source": "",
+        "DLC": "-"
+    },
+    {
+        "Artifact": "Memorial Fund",
+        "Description": "Gain 5 when a friendly unit dies.",
+        "Clan/Type": "Melting Remnant",
+        "Source": "",
+        "DLC": "-"
+    },
+    {
+        "Artifact": "Mold Braces",
+        "Description": "Friendly units gain 'Extinguish: Apply Armor 5 to the front friendly unit'.",
+        "Clan/Type": "Melting Remnant",
+        "Source": "",
+        "DLC": "-"
+    },
+    {
+        "Artifact": "Resin Block",
+        "Description": "When a friendly unit dies, apply +10 Attack to that unit.",
+        "Clan/Type": "Melting Remnant",
+        "Source": "",
+        "DLC": "-"
+    },
+    {
+        "Artifact": "Votive Key",
+        "Description": "Apply Endless to the first friendly unit summoned each turn.",
+        "Clan/Type": "Melting Remnant",
+        "Source": "",
+        "DLC": "-"
+    },
+    {
+        "Artifact": "Waxer Snuffer",
+        "Description": "Extinguish abilities trigger an additional time.",
+        "Clan/Type": "Melting Remnant",
+        "Source": "",
+        "DLC": "-"
+    },
+    {
+        "Artifact": "Wurmtooth",
+        "Description": "Clan starter cards are Infused. One card in each draft pack will be Infused.",
+        "Clan/Type": "Wurmkin",
+        "Source": "Starter",
+        "DLC": "The Last Divinity"
+    },
+    {
+        "Artifact": "Base Charge",
+        "Description": "At the start of battle, add 2 to each floor.",
+        "Clan/Type": "Wurmkin",
+        "Source": "",
+        "DLC": "The Last Divinity"
+    },
+    {
+        "Artifact": "Bog Slime",
+        "Description": "When a spell with Consume is played, gain 1.",
+        "Clan/Type": "Wurmkin",
+        "Source": "",
+        "DLC": "The Last Divinity"
+    },
+    {
+        "Artifact": "Carving Corusca",
+        "Description": "When a card with Extract is played, gain 1 Ember and 1 .",
+        "Clan/Type": "Wurmkin",
+        "Source": "",
+        "DLC": "The Last Divinity"
+    },
+    {
+        "Artifact": "Decayed Decoy",
+        "Description": "Grant +1 stack of Reap each time it is applied.",
+        "Clan/Type": "Wurmkin",
+        "Source": "",
+        "DLC": "The Last Divinity"
+    },
+    {
+        "Artifact": "Dun Echo",
+        "Description": "One additional card in each draft pack will be Infused.",
+        "Clan/Type": "Wurmkin",
+        "Source": "",
+        "DLC": "The Last Divinity"
+    },
+    {
+        "Artifact": "Echo Seedling",
+        "Description": "The first time each battle a card with Consume is played, add 2 copies to hand.",
+        "Clan/Type": "Wurmkin",
+        "Source": "",
+        "DLC": "The Last Divinity"
+    },
+    {
+        "Artifact": "Encased Divinity",
+        "Description": "At the start of battle, the top floor gains 1 that cannot be removed.",
+        "Clan/Type": "Wurmkin",
+        "Source": "",
+        "DLC": "The Last Divinity"
+    },
+    {
+        "Artifact": "Hardened Hull",
+        "Description": "When an Egg unit is summoned, remove Shell 3 and apply Armor 3 0.",
+        "Clan/Type": "Wurmkin",
+        "Source": "",
+        "DLC": "The Last Divinity"
+    },
+    {
+        "Artifact": "Mind Hoard",
+        "Description": "Increase by 1 on each floor.",
+        "Clan/Type": "Wurmkin",
+        "Source": "",
+        "DLC": "The Last Divinity"
+    },
+    {
+        "Artifact": "Notice Stone",
+        "Description": "When a card with Consume is played, all cards gain +1 Magic Power for the rest of this battle.",
+        "Clan/Type": "Wurmkin",
+        "Source": "",
+        "DLC": "The Last Divinity"
+    },
+    {
+        "Artifact": "Serrated Mandibles",
+        "Description": "When one or more are added to a floor, apply Reap 1 to a random enemy unit, twice.",
+        "Clan/Type": "Wurmkin",
+        "Source": "",
+        "DLC": "The Last Divinity"
+    },
+    {
+        "Artifact": "Abandoned Stave",
+        "Description": "+1 Ember per turn for every 2 Blight cards in your deck.",
+        "Clan/Type": "Concealed Caverns",
+        "Source": "Ember Deposits",
+        "DLC": "-"
+    },
+    {
+        "Artifact": "Blank Pages",
+        "Description": "At start of turn, if you do not have a Champion in your hand, add a random one to your hand.",
+        "Clan/Type": "Concealed Caverns",
+        "Source": "Let's give 'em Hell.",
+        "DLC": "The Last Divinity"
+    },
+    {
+        "Artifact": "Blood for Blood",
+        "Description": "When your Pyre kills a unit, restore 5 Pyre health.",
+        "Clan/Type": "Concealed Caverns",
+        "Source": "Train Graveyard",
+        "DLC": "-"
+    },
+    {
+        "Artifact": "Broken Wheel",
+        "Description": "When a non-Champion unit dies, it is Purged.",
+        "Clan/Type": "Concealed Caverns",
+        "Source": "Malicka Mutator",
+        "DLC": "The Last Divinity"
+    },
+    {
+        "Artifact": "Corrupted Cloud",
+        "Description": "At end of turn, deal 4 damage to friendly units.",
+        "Clan/Type": "Concealed Caverns",
+        "Source": "Malicka Mutator",
+        "DLC": "The Last Divinity"
+    },
+    {
+        "Artifact": "Cracked Helmet",
+        "Description": "Damage spells get Piercing.",
+        "Clan/Type": "Concealed Caverns",
+        "Source": "Malicka Mutator",
+        "DLC": "The Last Divinity"
+    },
+    {
+        "Artifact": "Dante's Cloak",
+        "Description": "+2 Magic Power' for every Blight card in your deck.",
+        "Clan/Type": "Concealed Caverns",
+        "Source": "Mysterious Figure",
+        "DLC": "-"
+    },
+    {
+        "Artifact": "Ember Stasis",
+        "Description": "Playing a Blight card deals 120 damage to the front enemy unit.",
+        "Clan/Type": "Concealed Caverns",
+        "Source": "Penance Yard",
+        "DLC": "-"
+    },
+    {
+        "Artifact": "Frozen Nostalgia",
+        "Description": "-1 Capacity on each floor. +1 5 Magic Power.",
+        "Clan/Type": "Concealed Caverns",
+        "Source": "Iceberg",
+        "DLC": "-"
+    },
+    {
+        "Artifact": "Heaven's Gold",
+        "Description": "Your Pyre gets +1 Attack for every 1 0 you have.",
+        "Clan/Type": "Concealed Caverns",
+        "Source": "The Historian",
+        "DLC": "-"
+    },
+    {
+        "Artifact": "History of the World",
+        "Description": "+3 Capacity on a random floor.",
+        "Clan/Type": "Concealed Caverns",
+        "Source": "Iceberg",
+        "DLC": "-"
+    },
+    {
+        "Artifact": "Hope for Peace",
+        "Description": "Spells with Purge have Consume instead.",
+        "Clan/Type": "Concealed Caverns",
+        "Source": "Armageddon Battlefield",
+        "DLC": "-"
+    },
+    {
+        "Artifact": "Immortality Potion",
+        "Description": "Friendly non-Morsel units get Endless.",
+        "Clan/Type": "Concealed Caverns",
+        "Source": "Malicka Mutator",
+        "DLC": "The Last Divinity"
+    },
+    {
+        "Artifact": "Judgemental Fittings",
+        "Description": "Enemy units enter with Damage Shield 1.",
+        "Clan/Type": "Concealed Caverns",
+        "Source": "Malicka Mutator",
+        "DLC": "The Last Divinity"
+    },
+    {
+        "Artifact": "Penitent Remains",
+        "Description": "When summoned friendly units get +2 Attack for every Blight card in your deck.",
+        "Clan/Type": "Concealed Caverns",
+        "Source": "Penance Yard",
+        "DLC": "-"
+    },
+    {
+        "Artifact": "Petrified Heart",
+        "Description": "Friendly units get +10 Health and Heartless.",
+        "Clan/Type": "Concealed Caverns",
+        "Source": "Train Graveyard",
+        "DLC": "-"
+    },
+    {
+        "Artifact": "Railforger's Hammer",
+        "Description": "+1 Capacity on each floor.",
+        "Clan/Type": "Concealed Caverns",
+        "Source": "Iceberg",
+        "DLC": "-"
+    },
+    {
+        "Artifact": "Shard of Divinity",
+        "Description": "Your Pyre starts each battle with Armor 100.",
+        "Clan/Type": "Concealed Caverns",
+        "Source": "Let's give 'em Hell.",
+        "DLC": "The Last Divinity"
+    },
+    {
+        "Artifact": "Vial of Tears",
+        "Description": "At end of turn, restore 5 health to friendly units.",
+        "Clan/Type": "Concealed Caverns",
+        "Source": "Malicka Mutator",
+        "DLC": "The Last Divinity"
+    },
+    {
+        "Artifact": "Weathered Coldstones",
+        "Description": "When you play a Blight card, restore 5 Pyre health.",
+        "Clan/Type": "Concealed Caverns",
+        "Source": "Penance Yard",
+        "DLC": "-"
+    },
+    {
+        "Artifact": "Fel's Remorse",
+        "Description": "+1 Ember per turn. Your Pyre gets +1 0Attack and +30.",
+        "Clan/Type": "Major Enhancement",
+        "Source": "",
+        "DLC": "-"
+    },
+    {
+        "Artifact": "Herzal's Compound",
+        "Description": "Draw +1 each turn. Your Pyre gets +1 0Attack and +30.",
+        "Clan/Type": "Major Enhancement",
+        "Source": "",
+        "DLC": "-"
+    },
+    {
+        "Artifact": "Light of Seraph",
+        "Description": "+1 Capacity on each floor. Your Pyre gets +1 0Attack and +30.",
+        "Clan/Type": "Major Enhancement",
+        "Source": "",
+        "DLC": "-"
+    }
+]
