@@ -1,6 +1,6 @@
 import praw
 import time
-import os
+import re
 from mt_commenter import mt_commenter
 
 class mt_redditor:
@@ -26,19 +26,25 @@ class mt_redditor:
                 client_id=self.client_id,
                 client_secret=self.client_secret,
                 password=self.password,
-                user_agent='MonsterTrain Card Bot by u/BrendanH117',
+                user_agent='MonsterTrain item Bot by u/BrendanH117',
                 username=self.username
             )
         except Exception as e:
             print(e)
             return None
     
-    def reply_to_comment(self, comment, card_name):
+    def reply_to_comment(self, comment, items):
         """
-        This function replies to a comment with the card's data
+        This function replies to a comment with the item's data
         """
-        card_commenter = mt_commenter(card_name)
-        comment.reply(card_commenter.get_comment())
+        reply = ""
+        for item_name in items:
+            item_commenter = mt_commenter(item_name)
+            reply += item_commenter.get_comment()
+            reply += "\n\n"
+        reply += "------------------------------------------------------  \n"
+        reply += "^^Questions? ^^Ping ^^user ^^BrendanH117 ^^- ^^Call ^^items ^^with ^^[[ITEMNAME]]"
+        comment.reply(reply)
 
     def get_new_comments(self):
         """
@@ -68,13 +74,15 @@ class mt_redditor:
             for comment in new_comments:
                 print("Reading Comment ID: {} from User: {}".format(comment.id, comment.author))
                 try:
-                    card_name = comment.body.replace('\\', '').split('[[')[1].split(']]')[0]
-                    self.reply_to_comment(comment, card_name)
+                    regex = '\[\[(.*?)\]\]'
+                    body = comment.body.replace('\\', '')
+                    items = re.findall(regex, body)
+                    self.reply_to_comment(comment, items)
                     self.done_comments.append(comment.id)
-                    print("Success: Card Name: {}".format(card_name))
+                    print("Success: Added items {}".format(items))
                 except IndexError:
                     self.done_comments.append(comment.id)
-                    print("No card name found")
+                    print("No item name found")
                     pass
                 except Exception as e:
                     print("!!!Failed - Reason: {}!!!".format(e))
