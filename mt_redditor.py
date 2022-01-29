@@ -15,7 +15,7 @@ class mt_redditor:
         self.client_secret = client_secret
         self.subreddit = "MonsterTrain"
         self.reddit = self.init_reddit()
-        self.done_comments = ["hrzing9", "hrtvqej", "rvzt0c", "ryqom6", "s5rxlw"]
+        self.done_comments = []
 
     def init_reddit(self):
         """
@@ -66,17 +66,18 @@ class mt_redditor:
         while True:
             new_comments = self.get_new_comments()
             for comment in new_comments:
-                print("Attempting to reply to comment: {}".format(comment.body))
+                print("Reading Comment ID: {} from User: {}".format(comment.id, comment.author))
                 try:
                     card_name = comment.body.replace('\\', '').split('[[')[1].split(']]')[0]
                     self.reply_to_comment(comment, card_name)
                     self.done_comments.append(comment.id)
-                    print("Success")
+                    print("Success: Card Name: {}".format(card_name))
                 except IndexError:
+                    self.done_comments.append(comment.id)
                     print("No card name found")
                     pass
                 except Exception as e:
-                    print("Failed - Reason: {}".format(e))
+                    print("!!!Failed - Reason: {}!!!".format(e))
                 time.sleep(10)
             
             # Write the done comments to a file
