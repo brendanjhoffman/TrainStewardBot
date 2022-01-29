@@ -617,7 +617,7 @@
     },
     {
         "Card": "Awake",
-        "Description": "Restore 3 0 health. Apply Regen 3.",
+        "Description": "Restore 30 health. Apply Regen 3.",
         "Clan": "Awoken",
         "Type": "Spell",
         "Rarity": "Uncommon",
