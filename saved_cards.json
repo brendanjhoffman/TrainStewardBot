@@ -210,7 +210,7 @@
     },
     {
         "Card": "Battering Ram",
-        "Description": "Deal damage to the front enemy unit equal to 4 x the amount of Armor on friendly units.",
+        "Description": "Deal damage to the front enemy unit equal to 4x the amount of Armor on friendly units.",
         "Clan": "Hellhorned",
         "Type": "Spell",
         "Rarity": "Uncommon",
@@ -298,7 +298,7 @@
     },
     {
         "Card": "Imp-olate",
-        "Description": "Deal damage to the front enemy unit equal to 15 x the number of Imp units in your deck.",
+        "Description": "Deal damage to the front enemy unit equal to 15x the number of Imp units in your deck.",
         "Clan": "Hellhorned",
         "Type": "Spell",
         "Rarity": "Rare",
@@ -309,7 +309,7 @@
     },
     {
         "Card": "Imp-portant Work",
-        "Description": "Sacrifice Imp. Gain 1 Ember. Draw 1 .",
+        "Description": "Sacrifice Imp. Gain 1 Ember. Draw 1.",
         "Clan": "Hellhorned",
         "Type": "Spell",
         "Rarity": "Uncommon",
@@ -639,7 +639,7 @@
     },
     {
         "Card": "Bramble Lash",
-        "Description": "Deal damage to the front enemy unit equal to 10 x the amount of Spikes on friendly units.",
+        "Description": "Deal damage to the front enemy unit equal to 10x the amount of Spikes on friendly units.",
         "Clan": "Awoken",
         "Type": "Spell",
         "Rarity": "Uncommon",
@@ -650,7 +650,7 @@
     },
     {
         "Card": "Channelsong",
-        "Description": "Consume. Draw a unit and apply +20  Attack, +20  Health, and 0 Ember.",
+        "Description": "Consume. Draw a unit and apply +20 Attack, +20 Health, and 0 Ember.",
         "Clan": "Awoken",
         "Type": "Spell",
         "Rarity": "Rare",
@@ -672,7 +672,7 @@
     },
     {
         "Card": "Engraft",
-        "Description": "Restore 1  health. Gain 1  Ember. Draw +1  next turn.",
+        "Description": "Restore 1 health. Gain 1 Ember. Draw +1 next turn.",
         "Clan": "Awoken",
         "Type": "Spell",
         "Rarity": "Uncommon",
@@ -683,7 +683,7 @@
     },
     {
         "Card": "Ensnare",
-        "Description": "Apply Rooted 1  to an enemy unit. Draw +1  next turn.",
+        "Description": "Apply Rooted 1 to an enemy unit. Draw +1 next turn.",
         "Clan": "Awoken",
         "Type": "Spell",
         "Rarity": "Uncommon",
@@ -694,7 +694,7 @@
     },
     {
         "Card": "Focused Growth",
-        "Description": "Restore 2 5 health. Draw +2 next turn.",
+        "Description": "Restore 25 health. Draw +2 next turn.",
         "Clan": "Awoken",
         "Type": "Spell",
         "Rarity": "Uncommon",
@@ -705,7 +705,7 @@
     },
     {
         "Card": "Glimmer",
-        "Description": "Restore 2  health to all friendly units and deal 2  damage to all enemy units.",
+        "Description": "Restore 2 health to all friendly units and deal 2 damage to all enemy units.",
         "Clan": "Awoken",
         "Type": "Spell",
         "Rarity": "Common",
@@ -771,7 +771,7 @@
     },
     {
         "Card": "Restoration Detonation",
-        "Description": "Restore 10 health to a friendly unit. Deal damage to the front enemy unit equal to 5 x the amount healed.",
+        "Description": "Restore 10 health to a friendly unit. Deal damage to the front enemy unit equal to 5x the amount healed.",
         "Clan": "Awoken",
         "Type": "Spell",
         "Rarity": "Common",
@@ -815,7 +815,7 @@
     },
     {
         "Card": "Sharpen",
-        "Description": "Apply +4 Attack and Spikes 4 .",
+        "Description": "Apply +4 Attack and Spikes 4.",
         "Clan": "Awoken",
         "Type": "Spell",
         "Rarity": "Common",
@@ -826,7 +826,7 @@
     },
     {
         "Card": "Spreading Spores",
-        "Description": "Apply Regen 2  and Spikes 2 . Add a copy of this card to your discard pile.",
+        "Description": "Apply Regen 2 and Spikes 2. Add a copy of this card to your discard pile.",
         "Clan": "Awoken",
         "Type": "Spell",
         "Rarity": "Rare",
@@ -848,7 +848,7 @@
     },
     {
         "Card": "Sting",
-        "Description": "Deal 1 0 damage to the front enemy unit. Draw +1 next turn.",
+        "Description": "Deal 10 damage to the front enemy unit. Draw +1 next turn.",
         "Clan": "Awoken",
         "Type": "Spell",
         "Rarity": "Common",
@@ -1068,7 +1068,7 @@
     },
     {
         "Card": "Ancient Synergy",
-        "Description": "Deal damage to the front enemy unit equal to 2 x the number of spells in your deck, three times.",
+        "Description": "Deal damage to the front enemy unit equal to 2x the number of spells in your deck, three times.",
         "Clan": "Stygian Guard",
         "Type": "Spell",
         "Rarity": "Rare",
@@ -1178,7 +1178,7 @@
     },
     {
         "Card": "Gifts for a Guard",
-        "Description": "Draw 3 spells and apply Consume, +20  Magic Power and 0 Ember.",
+        "Description": "Draw 3 spells and apply Consume, +20 Magic Power and 0 Ember.",
         "Clan": "Stygian Guard",
         "Type": "Spell",
         "Rarity": "Rare",
@@ -1266,7 +1266,7 @@
     },
     {
         "Card": "Offering Token",
-        "Description": "Draw 1 . Discard 1 .",
+        "Description": "Draw 1. Discard 1.",
         "Clan": "Stygian Guard",
         "Type": "Spell",
         "Rarity": "Common",
@@ -1376,7 +1376,7 @@
     },
     {
         "Card": "Alloyed Construct",
-        "Description": "Inert. Multistrike 1 . Gorge: Gain Fuel 1 .",
+        "Description": "Inert. Multistrike 1. Gorge: Gain Fuel 1.",
         "Clan": "Umbra",
         "Type": "Construct",
         "Rarity": "Uncommon",
@@ -1475,7 +1475,7 @@
     },
     {
         "Card": "Rubble Morsel",
-        "Description": "Eaten: Gain 1  Ember. Eater gains +1  Attack and +1  Health.",
+        "Description": "Eaten: Gain 1 Ember. Eater gains +1 Attack and +1 Health.",
         "Clan": "Umbra",
         "Type": "Morsel",
         "Rarity": "Common",
@@ -1541,7 +1541,7 @@
     },
     {
         "Card": "Shadoweater",
-        "Description": "Gorge: Restore 10  health. Deal 10  damage to enemy units.",
+        "Description": "Gorge: Restore 10 health. Deal 10 damage to enemy units.",
         "Clan": "Umbra",
         "Type": "Shroud",
         "Rarity": "Uncommon",
@@ -1563,7 +1563,7 @@
     },
     {
         "Card": "Blazing Bolts",
-        "Description": "Purge. Deal 30  damage to the front enemy unit. Add a stronger version of this card to your discard. Purge. Deal 30  damage to a random unit, two times. Add a stronger version of this card to your discard. Deal 30  damage to a random unit, four times.",
+        "Description": "Purge. Deal 30 damage to the front enemy unit. Add a stronger version of this card to your discard. Purge. Deal 30 damage to a random unit, two times. Add a stronger version of this card to your discard. Deal 30 damage to a random unit, four times.",
         "Clan": "Umbra",
         "Type": "Spell",
         "Rarity": "Rare",
@@ -1629,7 +1629,7 @@
     },
     {
         "Card": "Excavation Eruption",
-        "Description": "Deal 2 0 damage to a random enemy unit, three times. Slay: Gain 2 Ember.",
+        "Description": "Deal 20 damage to a random enemy unit, three times. Slay: Gain 2 Ember.",
         "Clan": "Umbra",
         "Type": "Spell",
         "Rarity": "Uncommon",
@@ -1750,7 +1750,7 @@
     },
     {
         "Card": "Perils of Production",
-        "Description": "Apply Rage 3  and Emberdrain 2 to a friendly unit. Gain 3 Ember.",
+        "Description": "Apply Rage 3 and Emberdrain 2 to a friendly unit. Gain 3 Ember.",
         "Clan": "Umbra",
         "Type": "Spell",
         "Rarity": "Common",
@@ -1937,7 +1937,7 @@
     },
     {
         "Card": "Draff",
-        "Description": "Burnout 1 . Multistrike 1 .",
+        "Description": "Burnout 1. Multistrike 1.",
         "Clan": "Melting Remnant",
         "Type": "Waxer",
         "Rarity": "Common",
@@ -2025,7 +2025,7 @@
     },
     {
         "Card": "Devourer of Death",
-        "Description": "Harvest: Gain Soul 1. Extinguish: Deal damage to the enemy units equal to 1 5x the Soul count.",
+        "Description": "Harvest: Gain Soul 1. Extinguish: Deal damage to the enemy units equal to 15x the Soul count.",
         "Clan": "Melting Remnant",
         "Type": "Wickless",
         "Rarity": "Rare",
@@ -2047,7 +2047,7 @@
     },
     {
         "Card": "Paraffin Thug",
-        "Description": "Slay: Gain 20.",
+        "Description": "Slay: Gain 20 Gold.",
         "Clan": "Melting Remnant",
         "Type": "Wickless",
         "Rarity": "Uncommon",
@@ -2069,7 +2069,7 @@
     },
     {
         "Card": "Wickless Tycoon",
-        "Description": "Harvest: Gain 5.",
+        "Description": "Harvest: Gain 5 Gold.",
         "Clan": "Melting Remnant",
         "Type": "Wickless",
         "Rarity": "Uncommon",
@@ -2080,7 +2080,7 @@
     },
     {
         "Card": "A Fatal Melting",
-        "Description": "Deal damage to enemy units equal to 3 x the number of friendly unit deaths this batlte.",
+        "Description": "Deal damage to enemy units equal to 3x the number of friendly unit deaths this batlte.",
         "Clan": "Melting Remnant",
         "Type": "Spell",
         "Rarity": "Uncommon",
@@ -2157,7 +2157,7 @@
     },
     {
         "Card": "Memento Mori",
-        "Description": "Deal damage to the front enemy unit equal to 10 x the number of friendly unit deaths this battle.",
+        "Description": "Deal damage to the front enemy unit equal to 10x the number of friendly unit deaths this battle.",
         "Clan": "Melting Remnant",
         "Type": "Spell",
         "Rarity": "Uncommon",
@@ -2278,7 +2278,7 @@
     },
     {
         "Card": "Waxen Spike",
-        "Description": "Consume. Apply +4 X CostAttack and Burnout 4  to friendly units.",
+        "Description": "Consume. Apply +4 X CostAttack and Burnout 4 to friendly units.",
         "Clan": "Melting Remnant",
         "Type": "Spell",
         "Rarity": "Rare",
@@ -2377,7 +2377,7 @@
     },
     {
         "Card": "Glugsider",
-        "Description": "Extract 4. Inspire: Restore 5  health. Revenge: Apply Reap 5  to the attacking unit.",
+        "Description": "Extract 4. Inspire: Restore 5 health. Revenge: Apply Reap 5 to the attacking unit.",
         "Clan": "Wurmkin",
         "Type": "Fen",
         "Rarity": "Rare",
@@ -2388,7 +2388,7 @@
     },
     {
         "Card": "Kinhost Carapace",
-        "Description": "When played, gain +1 0 Attack, +1 0 Health, and +1 Capacity per.",
+        "Description": "When played, gain +10 Attack, +10 Health, and +1 Capacity per Echo.",
         "Clan": "Wurmkin",
         "Type": "Host",
         "Rarity": "Uncommon",
@@ -2399,7 +2399,7 @@
     },
     {
         "Card": "Kinhost Pupa",
-        "Description": "Armor 20. Multistrike 1 . Strike: Apply Reap 1  to enemy units.",
+        "Description": "Armor 20. Multistrike 1. Strike: Apply Reap 1 to enemy units.",
         "Clan": "Wurmkin",
         "Type": "Host",
         "Rarity": "Uncommon",
@@ -2410,7 +2410,7 @@
     },
     {
         "Card": "Bog Fly",
-        "Description": "+5 Attack per.",
+        "Description": "+5 Attack per Echo.",
         "Clan": "Wurmkin",
         "Type": "Kin",
         "Rarity": "Common",
@@ -2465,7 +2465,7 @@
     },
     {
         "Card": "Shardsoul Carver",
-        "Description": "Inspire: +2 Attack and Armor 2 .",
+        "Description": "Inspire: +2 Attack and Armor 2.",
         "Clan": "Wurmkin",
         "Type": "Kin",
         "Rarity": "Uncommon",
@@ -2487,7 +2487,7 @@
     },
     {
         "Card": "Ambient Charge",
-        "Description": "Extract 3 . Draw 3 . Apply Consume to drawn spells.",
+        "Description": "Extract 3. Draw 3. Apply Consume to drawn spells.",
         "Clan": "Wurmkin",
         "Type": "Spell",
         "Rarity": "Uncommon",
@@ -2498,7 +2498,7 @@
     },
     {
         "Card": "Ancient Resonance",
-        "Description": "Deal 5 damage to enemy units per.",
+        "Description": "Deal 5 damage to enemy units per Echo.",
         "Clan": "Wurmkin",
         "Type": "Spell",
         "Rarity": "Uncommon",
@@ -2531,7 +2531,7 @@
     },
     {
         "Card": "Echo Break",
-        "Description": "Deal 1 damage per",
+        "Description": "Deal 1 damage per Echo",
         "Clan": "Wurmkin",
         "Type": "Spell",
         "Rarity": "Common",
@@ -2542,7 +2542,7 @@
     },
     {
         "Card": "Echo Infusion",
-        "Description": "Extract 1. Apply +1 0Health.",
+        "Description": "Extract 1. Apply +10 Health.",
         "Clan": "Wurmkin",
         "Type": "Spell",
         "Rarity": "Common",
@@ -2575,7 +2575,7 @@
     },
     {
         "Card": "Echoes of the Past",
-        "Description": "Apply +6 Attack per. Clear.",
+        "Description": "Apply +6 Attack per Echo. Clear Echo.",
         "Clan": "Wurmkin",
         "Type": "Spell",
         "Rarity": "Rare",
@@ -2586,7 +2586,7 @@
     },
     {
         "Card": "Eternal Kinstone",
-        "Description": "Add 1 that cannot be removed.",
+        "Description": "Add 1 Echo that cannot be removed.",
         "Clan": "Wurmkin",
         "Type": "Spell",
         "Rarity": "Rare",
@@ -2597,7 +2597,7 @@
     },
     {
         "Card": "Forced Contamination",
-        "Description": "Extract 3 . Apply Melee Weakness 3 .",
+        "Description": "Extract 3. Apply Melee Weakness 3.",
         "Clan": "Wurmkin",
         "Type": "Spell",
         "Rarity": "Uncommon",
@@ -2608,7 +2608,7 @@
     },
     {
         "Card": "Forgotten Trade",
-        "Description": "Consume. Gain 1 Ember per.",
+        "Description": "Consume. Gain 1 Ember per Echo.",
         "Clan": "Wurmkin",
         "Type": "Spell",
         "Rarity": "Uncommon",
@@ -2641,7 +2641,7 @@
     },
     {
         "Card": "Perfect Insanity",
-        "Description": "Extract 6. Apply -6 6 6 Health.",
+        "Description": "Extract 6. Apply -666 Health.",
         "Clan": "Wurmkin",
         "Type": "Spell",
         "Rarity": "Rare",
@@ -2685,7 +2685,7 @@
     },
     {
         "Card": "Revenge of the Damned",
-        "Description": "Extract 1. Deal 5 damage, twice. Slay: Gain 2.",
+        "Description": "Extract 1. Deal 5 damage, twice. Slay: Gain 2 Echo.",
         "Clan": "Wurmkin",
         "Type": "Spell",
         "Rarity": "Uncommon",
@@ -2696,7 +2696,7 @@
     },
     {
         "Card": "Shelter",
-        "Description": "Consume. Apply Armor 2 per to friendly units.",
+        "Description": "Consume. Apply Armor 2 per Echo to friendly units.",
         "Clan": "Wurmkin",
         "Type": "Spell",
         "Rarity": "Common",
@@ -2718,7 +2718,7 @@
     },
     {
         "Card": "Soul Siphon",
-        "Description": "Consume. Fill with. Apply Emberdrain 1 to friendly units.",
+        "Description": "Consume. Fill with Echo. Apply Emberdrain 1 to friendly units.",
         "Clan": "Wurmkin",
         "Type": "Spell",
         "Rarity": "Uncommon",
@@ -2729,7 +2729,7 @@
     },
     {
         "Card": "Soulcrushing Guilt",
-        "Description": "Extract 3 . Apply Dazed 3  to a unit and move it to the back.",
+        "Description": "Extract 3. Apply Dazed 3 to a unit and move it to the back.",
         "Clan": "Wurmkin",
         "Type": "Spell",
         "Rarity": "Uncommon",
@@ -2762,7 +2762,7 @@
     },
     {
         "Card": "Unearthed Remains",
-        "Description": "Consume. Gain 1 . Gain 1 .",
+        "Description": "Consume. Gain 1. Gain 1 Echo.",
         "Clan": "Wurmkin",
         "Type": "Spell",
         "Rarity": "Rare",
@@ -2905,7 +2905,7 @@
     },
     {
         "Card": "Gift of Gratitude",
-        "Description": "Purge. Gain 40 X Cost.",
+        "Description": "Purge. Gain 40 X CostGold.",
         "Clan": "Clanless",
         "Type": "Spell",
         "Rarity": "Rare",
@@ -2971,7 +2971,7 @@
     },
     {
         "Card": "Petty Theft",
-        "Description": "Deal 2 damage to an enemy unit. Slay: +50.",
+        "Description": "Deal 2 damage to an enemy unit. Slay: +50 Gold.",
         "Clan": "Clanless",
         "Type": "Spell",
         "Rarity": "Uncommon",

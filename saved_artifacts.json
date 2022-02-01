@@ -22,28 +22,28 @@
     },
     {
         "Artifact": "Cheater's Hand",
-        "Description": "Draw +1  each turn, then return 1  card to the top of your draw pile.",
+        "Description": "Draw +1 each turn, then return 1 card to the top of your draw pile.",
         "Clan/Type": "Clanless",
         "Source": "",
         "DLC": "The Last Divinity"
     },
     {
         "Artifact": "Cleansing Water",
-        "Description": "50 % chance to remove all Buff effects on an enemy unit when it enters your train.",
+        "Description": "50% chance to remove all Buff effects on an enemy unit when it enters your train.",
         "Clan/Type": "Clanless",
         "Source": "",
         "DLC": "-"
     },
     {
         "Artifact": "Concussive Coals",
-        "Description": "50 % chance to apply Dazed when an enemy unit enters your train.",
+        "Description": "50% chance to apply Dazed when an enemy unit enters your train.",
         "Clan/Type": "Clanless",
         "Source": "",
         "DLC": "-"
     },
     {
         "Artifact": "Conscription Notice",
-        "Description": "When you first summon your Champion, gain a random unit card with +1 0 Attack, +1 0 Health, -1 Ember, and -1 Capacity.",
+        "Description": "When you first summon your Champion, gain a random unit card with +10 Attack, +10 Health, -1 Ember, and -1 Capacity.",
         "Clan/Type": "Clanless",
         "Source": "",
         "DLC": "The Last Divinity"
@@ -64,14 +64,14 @@
     },
     {
         "Artifact": "Golden Vault",
-        "Description": "As long as you have at least 25 , lose 25  when you take Pyre damage in combat instead of taking damage.",
+        "Description": "As long as you have at least 25 Gold, lose 25 Gold when you take Pyre damage in combat instead of taking damage.",
         "Clan/Type": "Clanless",
         "Source": "",
         "DLC": "The Last Divinity"
     },
     {
         "Artifact": "Guild Marker",
-        "Description": "Merchant costs are reduced by 25 %.",
+        "Description": "Merchant costs are reduced by 25%.",
         "Clan/Type": "Clanless",
         "Source": "",
         "DLC": "-"
@@ -99,7 +99,7 @@
     },
     {
         "Artifact": "Infused Mallet",
-        "Description": "25 % chance to deal 5 damage when an enemy unit enters your train.",
+        "Description": "25% chance to deal 5 damage when an enemy unit enters your train.",
         "Clan/Type": "Clanless",
         "Source": "",
         "DLC": "-"
@@ -141,14 +141,14 @@
     },
     {
         "Artifact": "Mark of a Champion",
-        "Description": "When played, your Champion gains +50 % attack.",
+        "Description": "When played, your Champion gains +50% attack.",
         "Clan/Type": "Clanless",
         "Source": "",
         "DLC": "The Last Divinity"
     },
     {
         "Artifact": "Mark of an Exile",
-        "Description": "When played, your Champion gains +50 % max health.",
+        "Description": "When played, your Champion gains +50% max health.",
         "Clan/Type": "Clanless",
         "Source": "",
         "DLC": "The Last Divinity"
@@ -176,7 +176,7 @@
     },
     {
         "Artifact": "Rationing Scales",
-        "Description": "Before each battle, set Pyre health to 50. If this reduces Pyre health, gain 3 for each health lost.",
+        "Description": "Before each battle, set Pyre health to 50. If this reduces Pyre health, gain 3 Gold for each health lost.",
         "Clan/Type": "Clanless",
         "Source": "",
         "DLC": "The Last Divinity"
@@ -239,14 +239,14 @@
     },
     {
         "Artifact": "Volatile Gauge",
-        "Description": "When you draw any non-champion card, its cost is randomized between 1 Ember and 3 Ember. Draw +3  each turn.",
+        "Description": "When you draw any non-champion card, its cost is randomized between 1 Ember and 3 Ember. Draw +3 each turn.",
         "Clan/Type": "Clanless",
         "Source": "",
         "DLC": "-"
     },
     {
         "Artifact": "Wing Clippings",
-        "Description": "Spells with Consume have a 50 % chance to be discarded instead.",
+        "Description": "Spells with Consume have a 50% chance to be discarded instead.",
         "Clan/Type": "Clanless",
         "Source": "",
         "DLC": "-"
@@ -309,7 +309,7 @@
     },
     {
         "Artifact": "Queen's Tail",
-        "Description": "When you summon your first Imp each turn, gain +1 Ember and draw 1 .",
+        "Description": "When you summon your first Imp each turn, gain +1 Ember and draw 1.",
         "Clan/Type": "Hellhorned",
         "Source": "",
         "DLC": "-"
@@ -470,14 +470,14 @@
     },
     {
         "Artifact": "Sigiled Seaweed",
-        "Description": "50 % chance to apply Silence when an enemy unit enters your train.",
+        "Description": "50% chance to apply Silence when an enemy unit enters your train.",
         "Clan/Type": "Stygian Guard",
         "Source": "",
         "DLC": "-"
     },
     {
         "Artifact": "Tethys' Scales",
-        "Description": "50 % chance to apply Spell Weakness 1 when an enemy unit enters your train.",
+        "Description": "50% chance to apply Spell Weakness 1 when an enemy unit enters your train.",
         "Clan/Type": "Stygian Guard",
         "Source": "",
         "DLC": "-"
@@ -624,7 +624,7 @@
     },
     {
         "Artifact": "Memorial Fund",
-        "Description": "Gain 5 when a friendly unit dies.",
+        "Description": "Gain 5 Gold when a friendly unit dies.",
         "Clan/Type": "Melting Remnant",
         "Source": "",
         "DLC": "-"
@@ -666,21 +666,21 @@
     },
     {
         "Artifact": "Base Charge",
-        "Description": "At the start of battle, add 2 to each floor.",
+        "Description": "At the start of battle, add 2 Echo to each floor.",
         "Clan/Type": "Wurmkin",
         "Source": "",
         "DLC": "The Last Divinity"
     },
     {
         "Artifact": "Bog Slime",
-        "Description": "When a spell with Consume is played, gain 1.",
+        "Description": "When a spell with Consume is played, gain 1 Echo.",
         "Clan/Type": "Wurmkin",
         "Source": "",
         "DLC": "The Last Divinity"
     },
     {
         "Artifact": "Carving Corusca",
-        "Description": "When a card with Extract is played, gain 1 Ember and 1 .",
+        "Description": "When a card with Extract is played, gain 1 Ember and 1 Echo.",
         "Clan/Type": "Wurmkin",
         "Source": "",
         "DLC": "The Last Divinity"
@@ -708,14 +708,14 @@
     },
     {
         "Artifact": "Encased Divinity",
-        "Description": "At the start of battle, the top floor gains 1 that cannot be removed.",
+        "Description": "At the start of battle, the top floor gains 1 Echo that cannot be removed.",
         "Clan/Type": "Wurmkin",
         "Source": "",
         "DLC": "The Last Divinity"
     },
     {
         "Artifact": "Hardened Hull",
-        "Description": "When an Egg unit is summoned, remove Shell 3 and apply Armor 3 0.",
+        "Description": "When an Egg unit is summoned, remove Shell 3 and apply Armor 30.",
         "Clan/Type": "Wurmkin",
         "Source": "",
         "DLC": "The Last Divinity"
@@ -736,7 +736,7 @@
     },
     {
         "Artifact": "Serrated Mandibles",
-        "Description": "When one or more are added to a floor, apply Reap 1 to a random enemy unit, twice.",
+        "Description": "When one or more Echo are added to a floor, apply Reap 1 to a random enemy unit, twice.",
         "Clan/Type": "Wurmkin",
         "Source": "",
         "DLC": "The Last Divinity"
@@ -799,14 +799,14 @@
     },
     {
         "Artifact": "Frozen Nostalgia",
-        "Description": "-1 Capacity on each floor. +1 5 Magic Power.",
+        "Description": "-1 Capacity on each floor. +15 Magic Power.",
         "Clan/Type": "Concealed Caverns",
         "Source": "Iceberg",
         "DLC": "-"
     },
     {
         "Artifact": "Heaven's Gold",
-        "Description": "Your Pyre gets +1 Attack for every 1 0 you have.",
+        "Description": "Your Pyre gets +1 Attack for every 10 Gold you have.",
         "Clan/Type": "Concealed Caverns",
         "Source": "The Historian",
         "DLC": "-"
@@ -883,21 +883,21 @@
     },
     {
         "Artifact": "Fel's Remorse",
-        "Description": "+1 Ember per turn. Your Pyre gets +1 0Attack and +30.",
+        "Description": "+1 Ember per turn. Your Pyre gets +10 Attack and +30.",
         "Clan/Type": "Major Enhancement",
         "Source": "",
         "DLC": "-"
     },
     {
         "Artifact": "Herzal's Compound",
-        "Description": "Draw +1 each turn. Your Pyre gets +1 0Attack and +30.",
+        "Description": "Draw +1 each turn. Your Pyre gets +10 Attack and +30.",
         "Clan/Type": "Major Enhancement",
         "Source": "",
         "DLC": "-"
     },
     {
         "Artifact": "Light of Seraph",
-        "Description": "+1 Capacity on each floor. Your Pyre gets +1 0Attack and +30.",
+        "Description": "+1 Capacity on each floor. Your Pyre gets +10 Attack and +30.",
         "Clan/Type": "Major Enhancement",
         "Source": "",
         "DLC": "-"

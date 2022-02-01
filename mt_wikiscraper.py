@@ -39,17 +39,14 @@ class mt_wiki_reader:
                 # If the field is an image, then replace it with the image's alt text
                 # The accepted_text array lists the alt text of the images that are accepted in order to not print/save unit images (e.g. "Hornbreaker_Prince.png") 
                 for img in data.find_all('img'):
-                    accepted_text = ['Attack', 'Health', 'Capacity', 'Ember', 'X Cost']
+                    accepted_text = ['Attack', 'Health', 'Capacity', 'Ember', 'X Cost', 'Echo', 'Echo Slot', 'Gold']
                     if img['alt'] in accepted_text:
                         img.replace_with(img.get('alt'))
 
                 # Clean description card text
                 cardText = data.text.strip()
                 if field == "Description":
-                    numbersInDescription = re.findall("\d+", cardText)
-                    for number in numbersInDescription:
-                        cardText = cardText.replace(number, number + " ")
-
+                    cardText = re.sub(r'(?<=\d)(?=[^\d\sx%])|(?<=[^\d\s+-])(?=\d)', ' ', cardText)
                     cardText = cardText.replace(" .", ".")
                     cardText = cardText.replace(".", ". ")
                     cardText = cardText.replace("  ", " ")
@@ -93,17 +90,14 @@ class mt_wiki_reader:
                 # If the field is an image, then replace it with the image's alt text
                 # The accepted_text array lists the alt text of the images that are accepted in order to not print/save unit images (e.g. "Hornbreaker_Prince.png") 
                 for img in data.find_all('img'):
-                    accepted_text = ['Attack', 'Health', 'Capacity', 'Ember', 'X Cost']
+                    accepted_text = ['Attack', 'Health', 'Capacity', 'Ember', 'X Cost', 'Echo', 'Echo Slot', 'Gold']
                     if img['alt'] in accepted_text:
                         img.replace_with(img.get('alt'))
 
                 # Clean description card text
                 cardText = data.text.strip()
                 if field == "Description":
-                    numbersInDescription = re.findall("\d+", cardText)
-                    for number in numbersInDescription:
-                        cardText = cardText.replace(number, number + " ")
-
+                    cardText = re.sub(r'(?<=\d)(?=[^\d\sx%])|(?<=[^\d\s+-])(?=\d)', ' ', cardText)
                     cardText = cardText.replace(" .", ".")
                     cardText = cardText.replace(".", ". ")
                     cardText = cardText.replace("  ", " ")
@@ -129,4 +123,5 @@ class mt_wiki_reader:
 
 if __name__ == '__main__':
     reader = mt_wiki_reader()
+    reader.update_cards()
     reader.update_artifacts()
